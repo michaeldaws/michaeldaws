@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -73,9 +74,8 @@
         <h2 class="mt-3"><strong>Program Schedule </strong></h2>
 
         <h4 class="mt-3" style="color:#527EA5"><strong>NK2023 MEETING PROGRAM</strong></h4>
-
-        <table class="table">
-          <thead>
+          <table class="table">
+            <thead>
             <tr>
               <th scope="col">Start</th>
               <th scope="col">End</th>
@@ -83,6 +83,7 @@
               <th scope="col">Location</th>
             </tr>
           </thead>
+          <tbody>
           <tbody>
             <tr>
               <td>08:30</td>
@@ -144,15 +145,48 @@
               <td>1</td>
               <td>Saga Hall</td>
             </tr>
-            <tr>
+
+            <tr style="background-color: #CEE5C4;">
+
               <td>16:00</td>
               <td>16:30</td>
-              <td>4  <button type="button" class="btn btn-info p-0" data-toggle="collapse" data-target="#demo">Details</button></td>
+              <td>
+              <label for="session4">Session 4</label>
+              <input type="checkbox" name="session4" id="session4" data-toggle="toggle">
+            </td>
               <td>Saga Hall</td>
             </tr>
-            <div id="demo" class="collapse">
-              <p>Hello hello hello! What have we here?</p>
-            </div>  
+          </tbody>
+          <tbody class="hide subtable">
+            <tr class="first">
+              <td>16:00</td>
+            </tr>
+            <tr>
+              <td colspan="4">Lise Kveberg, University of Oslo</td>
+            </tr>
+            <tr>
+              <td colspan="4"><em>The G protein-coupled receptor GPR56 is an inhibitory checkpoint for NK cell migration</em></td>
+            </tr>
+            <tr class="first">
+              <td>16:10</td>
+            </tr>
+            <tr>
+              <td colspan="4">Nutsa Burduli, Karolinska Institutet</td>
+            </tr>
+            <tr>
+              <td colspan="4"><em>Transient TBK1 blockade enhances genetic modification susceptibility in NK cells and T cells</em></td>
+            </tr>
+            <tr class="first">
+              <td>16:20</td>
+            </tr>
+            <tr>
+              <td colspan="4">Jia-Xiang See, Heidelberg University</td>
+            </tr>
+            <tr>
+              <td colspan="4"><em> Liver Innate Lymphocytes orchestrate Endothelial Regulation of Adaptive Immunity</em></td>
+            </tr>
+          </tbody>
+          <tbody>
             <tr>
               <td>17:30</td>
               <td>20:30</td>
@@ -165,6 +199,7 @@
               <td>P2 Poster</td>
               <td>Olav den Hellige</td>
             </tr>
+          </tbody>
           </tbody>
         </table>
       </div>
@@ -205,5 +240,9 @@
 
     <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
     <script src="js/jquery.min.js"></script>
+    <script src="js/collapse.js"></script>
 
-</body </html>
+
+</body>
+
+</html>
