@@ -30,3 +30,22 @@ body{
 strong{
   font-weight: 500
 }
+
+.subtable tr td{
+  border: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.subtable tr:last-child td{
+  padding-bottom: 1rem;
+  border-bottom: 1px solid;
+}
+
+table .first td{
+  padding-top: 1rem;
+}
+
+[data-toggle="toggle"] {
+  display: none;
+}
