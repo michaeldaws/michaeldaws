@@ -46,6 +46,12 @@ table .first td{
   padding-top: 1rem;
 }
 
+.subtitle{
+  color:DarkRed;
+  font-size:1.1rem;
+  font-weight:500;
+}
+
 [data-toggle="toggle"] {
   display: none;
 }
