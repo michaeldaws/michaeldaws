@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NK2023</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container-fluid p-0">
+    <img src="images/banner.png" class="banner" alt="NK2023">
+  </div>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #282e27;">
+    <div class="container-fluid">
+      <a class="navbar-brand">NK2023</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-3">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="registration.html">Registration</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="accommodation.html">Accommodation</a>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Program
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="day1.html">September 26</a></li>
+              <li><a class="dropdown-item" href="day2.html">September 27</a></li>
+              <li><a class="dropdown-item" href="day3.html">September 28</a></li>
+              <li><a class="dropdown-item" href="day4.html">September 29</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="travel.html">Travel information</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="sponsors.html">Sponsors & Exhibits</a>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="norway.html">Norway</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row my-5" style="min-height: 550px">
+      <div class="col-sm-12 col-md-8 pe-5">
+
+        <h1>Contact Us</h1>
+
+        <!-- <span> For general enquiries, please send us an email at</span> <strong>info@nk2023.com</strong> and we will get back to you as soon as possible. -->
+        <form action="mail.php" method="POST">
+
+
+          <div class="row mt-3 g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Name" name="name" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Name</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-2 g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="email" class="form-control" name="email" id="floatingInputGrid" placeholder="name@example.com" value="">
+                <label for="floatingInputGrid">Email address</label>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <select class="form-select" name="subject" id="floatingSelectGrid" aria-label="Floating label select example">
+
+                  <option selected value="1">General enquiry</option>
+                  <option value="2">Scientific enquiry</option>
+                  <option value="3">Website enquiry</option>
+                </select>
+                <label for="floatingSelectGrid">Subject</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-2 g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <textarea class="form-control" name="message" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 mt-3">
+            <button class="btn btn-secondary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+>
+
+
+      <div class="col-sm-12 col-md-4 mt-4">
+        <!-- <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/SNI_NKMeeting?ref_src=twsrc%5Etfw">Tweets by SNI_NKMeeting</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="text-center text-white">
+    <div class="container-fluid p-0">
+      <div class="row justify-content-around" style="background-color: #3c453a;">
+        <div class="col-10 col-md-2 my-4">
+          <a href="https://pixabay.com/photos/waterfall-river-mountains-trees-5838582/"><img src="images/norway1.jpg" class="rounded-3 w-100" /></a>
+        </div>
+        <div class="col-10 col-md-2 my-4">
+          <a href="https://pixabay.com/photos/oslo-opera-house-norway-opera-917591/"><img src="images/norway2.jpg" class="rounded-3 w-100" /> </a>
+        </div>
+        <div class="col-10 col-md-2 my-4">
+          <a href="https://pixabay.com/photos/lofoten-hamnoy-landscape-4827611/?download"><img src="images/norway3.jpg" class="rounded-3 w-100" /> </a>
+        </div>
+        <div class="col-10 col-md-2 my-4">
+          <a href="https://pixabay.com/photos/building-house-market-harbor-6908494/"><img src="images/norway4.jpg" class="rounded-3 w-100" /> </a>
+        </div>
+        <div class="col-10 col-md-2 my-4">
+          <a href="https://pixabay.com/photos/landscape-the-nature-of-the-mountain-4860722/"><img src="images/norway5.jpg" class="rounded-3 w-100" /> </a>
+        </div>
+      </div>
+      <div class="row justify-content-around pt-4" style="background-color: #a0b89a;">
+        <p class=" text-center"><a href="http://www.sni-online.org/" target="_blank"><img src="images/sni-logo.png" alt="SNI" /></a></p>
+        <p class="text-center">&copy; 2023 Society for Natural Immunity. All rights reserved.<br>
+          <a href="mailto:info@nk2023.org">info@nk2023.org</a>
+        </p>
+      </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script>
+  <script src="js/fruit.js"></script>
+
+</body>
+
+</html>
