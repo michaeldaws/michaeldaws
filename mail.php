@@ -41,7 +41,7 @@ echo('
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item mx-3">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item mx-3">
             <a class="nav-link" href="registration.html">Registration</a>
@@ -67,7 +67,7 @@ echo('
             <a class="nav-link" href="sponsors.html">Sponsors & Exhibits</a>
           </li>
           <li class="nav-item dropdown mx-3">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-current="page" aria-expanded="false">
                 About
               </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -84,7 +84,7 @@ echo('
     <div class="row my-5"  style = "min-height: 550px">
       <div class="col-sm-12 col-md-8 pe-5">
 
-        <h1 class="mt-3">Sponsor Information</h1>
+        <h1>Mail Sent.</h1>
 
         <p><strong>Thankyou for contacting us.<br />
           We will get back to you as soon as possible </strong></p>
