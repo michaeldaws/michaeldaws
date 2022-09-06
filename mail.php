@@ -30,7 +30,7 @@ echo('
 
 <body>
   <div class="container-fluid p-0">
-    <img src="images/banner.png" class="banner" alt="NK2023">
+    <img src="images/banner.jpg" class="banner" alt="NK2023">
   </div>
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #282e27;">
     <div class="container-fluid">
@@ -93,8 +93,12 @@ echo('
 
       </div>
 
-      <div class="col-sm-12 col-md-4 mt-4">
-        <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/SNI_NKMeeting?ref_src=twsrc%5Etfw">Tweets by SNI_NKMeeting</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div class="card text-center bg-light col-sm-12 col-md-4 mt-4" style="width: 18rem; height: 14rem;">
+        <div class="card-body">
+          <h1 class="card-title">Your logo here</h1>
+          <p class="card-text">Please contact us about sponsorship opportunities.</p>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Contact</a>
+        </div>
       </div>
     </div>
   </div>
